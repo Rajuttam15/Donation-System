@@ -19,11 +19,11 @@ The Food Donation System is a web-based platform designed to facilitate the coll
 ## Setup and Installation
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/food-donation-system.git
+    git clone https://github.com/Rajuttam15/xcessfood-donation-system.git
     ```
 2. **Navigate to the Project Directory**
     ```bash
-    cd food-donation-system
+    cd xcessfood-donation-system
     ```
 3. **Install Dependencies**
     ```bash
@@ -45,8 +45,7 @@ The Food Donation System is a web-based platform designed to facilitate the coll
 - **Admins:** Verify new users and manage donations.
 
 ## Project Structure
-```
-food-donation-system/
+xcessfood-donation-system/
 │
 ├── backend/
 │   ├── uploads/
@@ -68,10 +67,6 @@ food-donation-system/
 │   ├── partials/
 │
 └── README.md
-```
-
-## Contributing
-Contributions are welcome! Please open an issue to discuss your ideas or submit a pull request.
 
 # xcessfood-donation-system
 # xcessfood-donation-system
