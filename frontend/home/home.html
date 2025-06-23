@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - Xcess Food Donation System</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="../pages/about-page/about.html">About</a></li>
+                <li><a href="../pages/donors-page/donors.html">Donors</a></li>
+                <li><a href="../pages/recipients-page/recipients.html">Recipients</a></li>
+                <li  id="join-link"><a href="../pages/join-page/join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slideshow-container">
+        <div class="slideshow-slide">
+            <img src="../assets/1.png" alt="Slide 1">
+        </div>
+        <div class="slideshow-slide">
+          <img src="../assets/2.png" alt="Slide 2">
+        </div>
+        <div class="slideshow-slide">
+          <img src="../assets/3.png" alt="Slide 3">
+        </div>
+    </div>
+      
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <section id="vision-mission">
+        <h1>Our Vision</h1>
+        <p>To create a community where no food goes to waste and every individual has access to nutritious meals,<br> 
+            fostering a culture of sustainability and compassion in Kasargod.</p>
+        <h1>Our Mission</h1>
+        <p>To efficiently collect surplus food from hostels in Kasargod and redistribute it to orphanages, food banks, 
+            and old age homes,<br> ensuring that excess food serves those in need while reducing food wastage</p>
+    </section>
+
+    <section id="business-need-waste">
+        <div class="section-item">
+            <img src="../assets/operate.webp" alt="How We Operate">
+            <h2>How We Operate</h2>
+            <p>We work with food donors and recipients to ensure that surplus food reaches those who need it most.</p>
+        </div>
+        <div class="section-item">
+            <img src="../assets/need.jpg" alt="The Need">
+            <h2>The Need</h2>
+            <p>Millions of people go hungry every day while perfectly good food goes to waste. Our service bridges this gap.</p>
+        </div>
+        <div class="section-item">
+            <img src="../assets/waste.webp" alt="The Impact of Food Waste">
+            <h2>The Impact of Food Waste</h2>
+            <p>Food waste contributes to environmental degradation. By redirecting surplus food, we help mitigate this impact.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Xcess Food Donation System. All rights reserved.</p>
+    </footer>
+    <script src="home.js"></script>
+</body>
+</html>
+
